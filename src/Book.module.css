@@ -1,0 +1,48 @@
+.book {
+  width: 40%;
+  border: 2px solid rgb(0, 204, 255);
+  margin: 20px;
+  margin-left: 5%;
+  height: 250px;
+  border-radius:20px;
+}
+
+    
+
+.img {
+    float: left;
+    margin: 15px;
+}
+
+.text{
+    align-items: center;
+    margin: 10px;
+}
+
+.button {
+	background-color:rgb(0, 204, 255);
+	border-radius:20px;
+	border:1px solid rgb(0, 103, 209);
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	padding:16px 31px;
+    text-shadow:0px 1px 0px #2f6627;
+
+}
+
+.button:hover {
+	background-color:rgb(0, 103, 209);
+}
+
+.button:active {
+    position:relative;
+	top:1px;
+}
+
+.textbutton {
+    text-decoration: none;
+    color:#ffffff;
+}
